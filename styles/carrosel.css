@@ -40,8 +40,10 @@
 .descricao__titulo {
   color: var(--laranja);
   font-weight: 700;
+  padding: 0.5em;
 }
-.descricao__titulo-livro {
+.descricao__titulo-livro,
+.descricao__titulo-nome {
   color: var(--azul);
   font-size: 18px;
   font-weight: 700;
