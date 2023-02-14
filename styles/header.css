@@ -55,6 +55,9 @@ text-transform: uppercase;
 .opcoes {
   display: none;  
 }
+.container__texto {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
    .container__titulo,
@@ -94,4 +97,24 @@ text-transform: uppercase;
     display: none;
    }
 
+}
+
+
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .cabecalho {
+        padding: 0 2em;
+    }
+    .opcoes {
+        margin-right: auto;
+    }
+    .container__texto {
+        display: block;
+    }
 }
